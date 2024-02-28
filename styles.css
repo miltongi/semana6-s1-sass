@@ -1,0 +1,50 @@
+.modularidad {
+  background-color: rgb(255, 0, 191);
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modularidad h2 {
+  color: black;
+  font-weight: bold;
+}
+
+style.scss *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(46, 45, 45);
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Ejemplo de variables*/
+.principal {
+  color: #054f99;
+}
+
+/*Ejemplo de anidamiento*/
+.anidamiento {
+  color: rgb(177, 5, 125);
+}
+.anidamiento .items {
+  color: #dabb0f;
+}
+
+/*Ejemplo de nesting*/
+.nesting {
+  background-color: #dabb0f;
+}
+.nesting-hijo {
+  font-size: 40px;
+}
+.nesting-nieto {
+  color: rgb(11, 14, 170);
+}
+
+/*Ejemplo de modularidad*//*# sourceMappingURL=styles.css.map */
